@@ -8,7 +8,7 @@ a , a:hover, a:visited{
 }
 
 body{
-    background-color: violet ;
+    background-color: rgb(131, 111, 255);
 }
 header{
     display: flex;
@@ -16,7 +16,7 @@ header{
     flex-direction: column;
     color: whitesmoke;
     align-items: center;
-    background-color: violet;
+    background-color: rgb(131, 111, 255);
     height: 100px;
 }
 header .boxalgnLinks{
@@ -48,7 +48,7 @@ header .boxalgnLinks .algnLinks{
     flex-direction: column;
     align-items: center;
     background-color:white;
-    border: 5px solid violet;
+    border: 5px solid rgb(131, 111, 255);
     border-radius:20px ;
     padding: 20px;
 }
@@ -96,7 +96,7 @@ header .boxalgnLinks .algnLinks{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 5px solid violet;
+    border: 5px solid skyblue;
     
 }
 .interface #Game #janela1 .boxVezJogador #name{
@@ -122,7 +122,7 @@ header .boxalgnLinks .algnLinks{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    border: 5px solid violet;
+    border: 5px solid skyblue;
 }
 #tablePalavras{
     display: flex;
@@ -165,14 +165,14 @@ header .boxalgnLinks .algnLinks{
 }
 .boxForca{
     width: 30%;
-    height: 65vh;
+    height: 463px;
     display: flex;
     flex-direction: column;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid violet;
+    border: 5px solid skyblue;
 }
 .boxForca #letrasErradas{
     display: flex;
@@ -319,3 +319,12 @@ header .boxalgnLinks .algnLinks{
 .nameVencedor{
     font-size: 20px;
 }
+
+.instrução{
+    padding-top: auto;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
