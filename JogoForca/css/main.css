@@ -9,6 +9,7 @@ a , a:hover, a:visited{
 
 body{
     background-color: rgb(131, 111, 255);
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     display: flex;
@@ -75,8 +76,14 @@ header .boxalgnLinks .algnLinks{
     border: none;
     border-radius: 20px;
     cursor: pointer;;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 29px #14fff1;
+
+  box-shadow: inset 0 0 32px #14fff1, 0 0 32px #14fff1;
+
+  position: relative;
     
 }
+
 .interface #Game{
     width: 90%;
     margin-top: 50px;
@@ -325,6 +332,10 @@ header .boxalgnLinks .algnLinks{
     font-size: 15px;
     text-align: center;
 
+}
+
+.instrucao{
+    color: black; 
 }
 
 

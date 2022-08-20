@@ -15,12 +15,6 @@
                 <a class="algnLinks" target="_blank" href="https://www.instagram.com/vilmar_001/"><img width="40px" src="./imgs/iconfinder_social-instagram-new-circle_1164349.svg" alt=""></a>
                 <a class="algnLinks" href="https://github.com/VilmarTuminski/JogoForca"><img  src="./imgs/iconfinder_github-social-media_765246.svg" alt="">link do Projeto</a>
         </div>
-
-        <div class="instrução">
-             <h3>Olá, este é um jogo da forca feito em HTML, CSS e em JavaScript, para jogar digite o nome do jogador 1 e do jogador 2.</h3>
-             <h3>O jogador que estiver em sua vez deve digitar a palavra e o outro jogador deve adivinhar a palavra.</h3>
-        </div>
-       
     </header>
 
     <div class="interface">
@@ -28,6 +22,7 @@
         <!-- começa a div que contem o campo de inserir os nomes dos jogadores-->
         <div id="Modal_1-names" >
             <div class="AlignModal_1" >
+                <p class="instrucao"><strong>Olá, para jogar digite o nome do jogador 1 e do jogador 2.</strong></p>
                 <div class="alignInputsImgs">
                     <img class="imgsPlayers" src="./imgs/img_Jogador-1.png" alt="">
                     <input id="player1" maxlength="25" class="inputs" type="text" placeholder="jogador 1">
@@ -36,7 +31,7 @@
                     <img class="imgsPlayers" src="./imgs/img_Jogador-2.png" alt="">
                     <input id="player2" maxlength="25" class="inputs" type="text" placeholder="jogador 2">
                 </div>
-                <button class="btn-Start" onclick="verificaNomes()">Play</button>
+                <button class="btn-Start" onclick="verificaNomes()"><strong><p style="color: black;">Play</p></strong></button>
             </div>
         </div>
         <!--termina a div campo dos jogadroes -->
@@ -54,6 +49,7 @@
                 <div class="boxVezJogador">
                     <span id="name"></span>
                     <div class="janelaVezJogador">
+                        <p class="instrucao"><strong>O jogador que estiver em sua vez de jogo deve digitar a palavra aqui.</strong></p>
                         <span id="imgPlay"></span>
                         <input id="inputPalavra" class="inputDigita" maxlength="50" type="password">
                         <button id="btn-começa" onclick="recuperaPalavra()">Começa</button>
@@ -86,6 +82,7 @@
 
                     <div id="camPoJogadorDigita">
                         <span id="imgRespondePlayer"></span>
+                        <p class="instrucao"><strong>O jogador2 deve adivinhar a palavra escrita digitando aqui.</strong></p>
                         <input width="200px" id="jogadorDigta" type="text" placeholder="digite aqui">
                         <a  onclick="digitoJogador()"><img class="imgIcons" src="./imgs/2x/baseline_send_black_18dp.png" alt="enviar"></a >
                     </div>
